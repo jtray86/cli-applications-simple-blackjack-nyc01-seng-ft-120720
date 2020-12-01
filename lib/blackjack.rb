@@ -38,6 +38,7 @@ def hit?(card_total)
    deal_card + card_total
   elsif answer != "s"or"h"
    "Please enter a valid command"
+   prompt_user
   end 
 end
 
