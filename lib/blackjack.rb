@@ -36,7 +36,8 @@ def hit?(card_total)
     card_total
   elsif answer =="h"
    deal_card + card_total
-  else answer != "s"or"h"
+  end
+  if answer != "s"or"h"
    invalid_command
    prompt_user
   end 
