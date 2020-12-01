@@ -36,7 +36,7 @@ def hit?(card_total)
     deal_card
     
   end
-  puts 
+  puts "Please enter a valid command"
 end
 
 def invalid_command
