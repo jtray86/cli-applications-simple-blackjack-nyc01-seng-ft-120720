@@ -36,6 +36,8 @@ def hit?(card_total)
     card_total
   elsif answer =="h"
    deal_card + card_total
+ else answer != "s" "h"
+   puts 
   end 
 end
 
