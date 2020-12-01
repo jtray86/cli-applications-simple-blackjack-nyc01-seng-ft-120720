@@ -31,9 +31,8 @@ end
 
 def hit?(card_total)
   prompt_user
-  get_user_input
-  card_total
  if get_user_input =="h"
+   sum = deal_card + card_total
    
 end
 
