@@ -37,14 +37,15 @@ def hit?(card_total)
   elsif answer =="h"
    deal_card + card_total
    
-  else answer != "s"or"h"
-   invalid_command
+    if answer != "s"or"h"
+    invalid_command
+    end
+    prompt_user
   end 
 end
 
 def invalid_command
   puts "Please enter a valid command"
-  prompt_user
 end
 
 #####################################################
