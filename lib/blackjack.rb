@@ -40,6 +40,7 @@ def hit?(card_total)
   else answer != "s"or"h"
    invalid_command
   end 
+  prompt_user
 end
 
 def invalid_command
