@@ -33,7 +33,8 @@ def hit?(card_total)
   prompt_user
   get_user_input
   card_total
- 
+ if get_user_input =="h"
+   
 end
 
 def invalid_command
