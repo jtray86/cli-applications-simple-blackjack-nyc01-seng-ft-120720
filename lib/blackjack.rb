@@ -1,5 +1,5 @@
 def welcome
-  # code #welcome here
+  "Welcome to the Black jack Table"
 end
 
 def deal_card
