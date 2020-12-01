@@ -37,7 +37,7 @@ def hit?(card_total)
   elsif answer =="h"
    deal_card + card_total
  else answer != "s" "h"
-   puts 
+   puts "Please enter a valid command"
   end 
 end
 
