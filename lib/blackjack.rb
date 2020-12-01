@@ -3,11 +3,11 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
+  
 end
 
 def display_card_total
-  # code #display_card_total here
+  put "Your cards add up to #{card total}"
 end
 
 def prompt_user
