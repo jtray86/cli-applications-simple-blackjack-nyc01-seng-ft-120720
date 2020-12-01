@@ -37,10 +37,10 @@ def hit?(card_total)
   elsif answer =="h"
    deal_card + card_total
    
-    if answer != "s"or"h"
-    invalid_command
-    end
-    prompt_user
+  elsif answer != "s"or"h"
+  invalid_command
+    
+    
   end 
 end
 
